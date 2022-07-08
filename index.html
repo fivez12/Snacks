@@ -11,22 +11,30 @@
     <title>Ale's snacks</title>
   </head>
   <body>
-    <section class="section">
+    <section class="section is-family-code">
       <div class="container">
-        <div class="columns">
+        <div class="columns is-fluid">
           <div class="column is-two-thirds is-offset-one-fifth">
             <div class="card">
-              <header class="card-header">
-                <p class="card-header-title title is-3">Ale's Snacks</p>
+              <header class="card-header has-background-info-light">
+                <p
+                  class="card-header-title title is-3 is-justify-content-center"
+                >
+                  Ale's Snacks 🍔
+                </p>
               </header>
-              <div class="card-content">
-                <div class="content">
+              <div class="card-content has-background-info-light">
+                <div class="content has-text-centered">
                   <h1 id="snacks">Pick a snack</h1>
                 </div>
+                <div
+                  id="descri"
+                  class="content is-size-5 has-text-centered has-text-weight-semibold has-text-black"
+                ></div>
               </div>
               <footer class="card-footer">
                 <button
-                  class="is-medium is-dark button card-footer-item"
+                  class="is-medium button is-black card-footer-item is-family-code has-background-primary-dark has-text-black has-text-weight-bold"
                   onclick="randomImg()"
                 >
                   Randomize
@@ -37,15 +45,6 @@
         </div>
       </div>
     </section>
-    <!-- <div id="snacks"></div>
-    <input
-      class="Randombutton"
-      style="float: left"
-      type="button"
-      value="Randomize"
-      onclick="randomImg()"
-    /> -->
-
     <script src="app.js"></script>
   </body>
 </html>
